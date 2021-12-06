@@ -2,9 +2,9 @@ PATH
   remote: .
   specs:
     inherited_resources (1.13.0)
-      actionpack (>= 5.2, < 6.2)
+      actionpack (>= 5.2, <= 7.0.0)
       has_scope (~> 0.6)
-      railties (>= 5.2, < 6.2)
+      railties (>= 5.2, <= 7.0.0)
       responders (>= 2, < 4)
 
 GEM
@@ -104,11 +104,8 @@ GEM
     multipart-post (2.1.1)
     netrc (0.11.0)
     nio4r (2.5.7)
-    nio4r (2.5.7-java)
     nokogiri (1.11.3)
       mini_portile2 (~> 2.5.0)
-      racc (~> 1.4)
-    nokogiri (1.11.3-java)
       racc (~> 1.4)
     octokit (4.18.0)
       faraday (>= 0.9)
@@ -118,7 +115,6 @@ GEM
       ast (~> 2.4.1)
     public_suffix (4.0.6)
     racc (1.5.2)
-    racc (1.5.2-java)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -187,13 +183,10 @@ GEM
     unicode-display_width (2.0.0)
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
-    websocket-driver (0.7.3-java)
-      websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     zeitwerk (2.4.2)
 
 PLATFORMS
-  java
   ruby
 
 DEPENDENCIES
